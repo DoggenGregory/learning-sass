@@ -1,0 +1,49 @@
+.navbar {
+  width: 100%;
+  height: auto;
+}
+
+.rowflex {
+  display: flex;
+  flex-grow: inherit;
+  background-color: #4e4e4e;
+}
+.rowflex .textboxnav {
+  margin-left: 8px;
+  height: 100%;
+  width: 30%;
+  background-color: grey;
+  border: solid 2px #363636;
+  border-radius: 2px;
+  text-align: center;
+}
+.rowflex .textboxnav {
+  color: #131313;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.rowflex .textboxnav:hover {
+  font-size: 20px;
+  color: black;
+  background-color: #a01111;
+}
+
+.acties {
+  display: grid;
+  flex-grow: inherit;
+  width: auto;
+  height: 250px;
+}
+.acties .actie1 {
+  display: grid;
+  flex-grow: inherit;
+  flex-grow: inherit;
+  width: 300px;
+  height: 250px;
+  background-color: #1aac7b;
+}
+.acties .actie1 .actie1front {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
